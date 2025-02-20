@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Eagle AI Labs Landing Page
+
+This repository contains the landing page for Eagle AI Labs, showcasing our partnership with a U.S. regulated crypto hedge fund and our TradeDividends program.
 
 ## Getting Started
 
@@ -16,21 +18,24 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This landing page features:
 
-## Learn More
+- Information about our institutional partnership
+- Details about the TradeDividends program
+- Waitlist registration for early access
+- Responsive design with modern UI components
+- Integration with Next.js font optimization for Geist typography
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project uses:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org) for the frontend framework
+- [Tailwind CSS](https://tailwindcss.com) for styling and responsive design
+- Vercel for deployment and hosting
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The site is currently deployed at [https://eagle-ai-landing-page.vercel.app/](https://eagle-ai-landing-page.vercel.app/)

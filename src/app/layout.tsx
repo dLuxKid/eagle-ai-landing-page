@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "EAGLEAI",
   description:
     "EAGLEAI Research is a platform that provides AI-driven insights for trading and investing.",
+  icons: "/favicon.ico",
 };
 
 export default function RootLayout({

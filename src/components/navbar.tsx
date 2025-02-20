@@ -62,7 +62,7 @@ export default function Navbar() {
         <div
           className={`${
             showNav ? "translate-x-0" : "translate-x-[100%]"
-          } xl:hidden transition-transform duration-500 transform fixed inset-0 z-40 flex flex-col gap-4 items-center w-full border-t border-t-white/20 bg-[#131B2F]`}
+          } xl:hidden transition-transform duration-500 transform fixed inset-0 z-40 flex flex-col gap-4 items-center w-full bg-[#131B2F]`}
         >
           <span
             className="cursor-pointer self-end pr-[5%] pt-4"

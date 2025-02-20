@@ -4,6 +4,7 @@ import trade1 from "@/assets/images/Trade3 1.png";
 import trade2 from "@/assets/images/Trade3 2.png";
 import key from "@/assets/images/key.png";
 import medal from "@/assets/images/medal.png";
+import RegisterWaitlist from "@/components/register-waitlist";
 
 export default function Home() {
   return (
@@ -175,41 +176,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <form className="flex flex-col space-y-[31px] w-2/5">
-              <input
-                type="text"
-                name="firstname"
-                placeholder="First Name"
-                required
-                className="h-[66px] pl-[20px] pr-4 rounded-[25px] placeholder:#ABAEB4 text-white focus:outline-none bg-white/20"
-              />
-              <input
-                type="text"
-                name="lastname"
-                placeholder="Last Name"
-                required
-                className="h-[66px] pl-[20px] pr-4 rounded-[25px] placeholder:#ABAEB4 text-white focus:outline-none bg-white/20"
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                required
-                className="h-[66px] pl-[20px] pr-4 rounded-[25px] placeholder:#ABAEB4 text-white focus:outline-none bg-white/20"
-              />
-              <input
-                type="text"
-                name="telegram"
-                placeholder="Telegram Username"
-                required
-                className="h-[66px] pl-[20px] pr-4 rounded-[25px] placeholder:#ABAEB4 text-white focus:outline-none bg-white/20"
-              />
-              <div className="self-end">
-                <button className="button-gradient font-normal text-base/[21.79px] open-sans transition-all hover:bg-opacity-80">
-                  Register your interest now
-                </button>
-              </div>
-            </form>
+            <RegisterWaitlist />
           </div>
         </section>
       </main>

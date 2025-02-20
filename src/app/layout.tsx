@@ -5,6 +5,7 @@ import Navbar from "@/components/navbar";
 import type { Metadata } from "next";
 import Image from "next/image";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased bg-[#000614]`}>
+        <Toaster />
         <div className="relative min-h-screen">
           <Image
             src={top}

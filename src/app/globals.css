@@ -28,3 +28,10 @@ body {
 section {
   @apply max-w-screen-3xl w-full;
 }
+
+* {
+  scrollbar-width: 0;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}

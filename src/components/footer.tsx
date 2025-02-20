@@ -6,7 +6,7 @@ import { X } from "@/assets/svg/x";
 export default function Footer() {
   return (
     <footer className="w-full px-[5%] flex items-center justify-center pb-[30px]">
-      <div className="border-t border-[#FFFFFF33] pt-[30px] flex flex-col justify-center md:flex-row items-center md:justify-between w-full max-w-screen-3xl">
+      <div className="border-t border-[#FFFFFF33] pt-[30px] flex flex-col gap-4 justify-center md:flex-row items-center md:justify-between w-full max-w-screen-3xl">
         <div className="flex-shrink-0 h-[30px] w-[200px]">
           <Image
             src={logo}

@@ -38,6 +38,7 @@ export default function RootLayout({
           <div className="relative">
             <Navbar />
             {children}
+            <div className="bg-transparent h-[50px] w-full" />
           </div>
         </div>
         <Footer />

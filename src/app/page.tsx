@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <>
       <main className="min-h-screen flex items-center flex-col justify-center px-[5%]">
-        <section className="py-[30px] ">
-          <div className="bg-[#00F6FFDE] rounded-xl p-4 flex items-center justify-center">
-            <p className="font-normal text-[17px]/[24px] -tracking-[0.4px] text-black">
+        <section className="py-[30px]">
+          <div className="bg-[#00F6FFDE] rounded-xl h-[44px] flex items-center justify-center overflow-x-auto whitespace-nowrap">
+            <p className="font-normal w-full px-4 text-[17px]/[24px] -tracking-[0.4px] text-black">
               Eagle AI Labs: Partnership and Co-Ownership of a U.S. Regulated
               Crypto Hedgefund. This enables us to launch a new product,
               TradeDividends.{" "}
@@ -22,9 +22,9 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className="pb-[30px] flex flex-col md:flex-row items-center gap-[5%] justify-between">
-          <div className="md:w-3/5 flex flex-col justify-center gap-[30px]">
-            <h1 className="text-7xl/[108px] font-normal text-gradient">
+        <section className="pb-[30px] flex flex-col md:flex-row items-center gap-[30px] md:gap-[5%] justify-between">
+          <div className="md:w-3/5 flex flex-col justify-center gap-4 md:gap-[30px]">
+            <h1 className="text-5xl/[58px] md:text-6xl/tight lg:text-7xl/[108px] font-normal text-gradient">
               Pioneering the Future of Digital Asset Investment
             </h1>
             <p className="text-lg/[27px] font-normal">
@@ -44,12 +44,14 @@ export default function Home() {
             <Image src={hero_img} alt="hero section image" />
           </div>
         </section>
-        <section className="pt-[60px] pb-[80px] flex flex-col md:flex-row items-center justify-between gap-[50px]">
+        <section className="pt-[60px] md:pb-[80px] flex flex-col md:flex-row items-center justify-between gap-4 md:gap-[50px]">
           <div className="md:w-2/5">
             <Image src={trade1} alt="" />
           </div>
           <div className="md:w-3/5 space-y-4">
-            <h2 className="text-5xl/[72px]">A new era in crypto investment</h2>
+            <h2 className="text-4xl/[54px] md:text-5xl/[72px]">
+              A new era in crypto investment
+            </h2>
             <p className="text-lg">
               Our partnership represents a milestone in institutional crypto
               adoption, featuring:
@@ -81,12 +83,12 @@ export default function Home() {
             </ul>
           </div>
         </section>
-        <section className="pt-[60px] pb-[80px] flex flex-col md:flex-row-reverse items-center justify-between gap-[50px]">
+        <section className="pt-[60px] md:pb-[80px] flex flex-col md:flex-row-reverse items-center justify-between gap-4 md:gap-[50px]">
           <div className="md:w-2/5">
             <Image src={trade2} alt="" />
           </div>
           <div className="md:w-3/5 space-y-4">
-            <h2 className="text-5xl/[72px]">
+            <h2 className="text-4xl/[54px] md:text-5xl/[72px]">
               Trade Dividends Rewarding our comunity
             </h2>
 
@@ -111,19 +113,21 @@ export default function Home() {
           </div>
         </section>
         <section className="pt-[60px] pb-[80px] flex flex-col w-full gap-[30px] relative">
-          <h2 className="text-5xl/[72px]">
+          <h2 className="text-4xl/[54px] md:text-5xl/[72px]">
             Limited Availability - Register now to join wait List
           </h2>
-          <div className="flex flex-col md:flex-row gap-[30px]">
-            <div className="flex flex-col gap-[30px] w-3/5">
-              <div className="bg-white/10 rounded-[10px] border border-white/20 p-[20px] pb-[30px] flex gap-[15px]">
+          <div className="flex flex-col md:flex-row gap-[60px] md:gap-[30px]">
+            <div className="flex flex-col gap-[30px] md:w-3/5">
+              <div className="bg-white/10 rounded-[10px] border border-white/20 p-[20px] pb-[30px] flex items-center md:items-start justify-center flex-col md:flex-row gap-[15px]">
                 <Image
                   src={key}
                   alt="key icon"
                   className="flex-shrink-0 size-[100px]"
                 />
                 <div className="space-y-[20px]">
-                  <h4 className="text-lg/[27px] ">Limited Access Available</h4>
+                  <h4 className="text-lg/[27px] w-full text-center md:text-start">
+                    Limited Access Available
+                  </h4>
                   <p className="text-[#8CA0B3] text-base open-sans">
                     Be among the first to access institutional-grade crypto
                     investment opportunities. Our exclusive waitlist is now open
@@ -144,14 +148,14 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="bg-white/10 rounded-[10px] border border-white/20 p-[20px] pb-[30px] flex gap-[15px]">
+              <div className="bg-white/10 rounded-[10px] border border-white/20 p-[20px] pb-[30px] flex items-center md:items-start justify-center flex-col md:flex-row gap-[15px]">
                 <Image
                   src={medal}
                   alt="medal icon"
                   className="flex-shrink-0 size-[100px]"
                 />
                 <div className="space-y-[20px]">
-                  <h4 className="text-lg/[27px]">
+                  <h4 className="text-lg/[27px] w-full text-center md:text-start">
                     Benefits of signing up early
                   </h4>
 
@@ -180,9 +184,11 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <div className="bg-gradient mb-[50px] pt-[80px] pb-[120px] flex items-center flex-col justify-center px-[5%]">
+      <div className="bg-gradient pt-[60px] pb-[80px] md:pt-[80px] md:pb-[120px] flex items-center flex-col justify-center px-[5%] mx-[5%] lg:mx-0">
         <section className="space-y-[15px]">
-          <h1 className="text-7xl/[108px] font-normal">Coming Q1 2025</h1>
+          <h1 className="text-4xl/[54px] md:text-6xl/[72px] lg:text-7xl/[108px] font-normal">
+            Coming Q1 2025
+          </h1>
           <ul className="w-full items-start flex flex-col pl-4 open-sans">
             <li className="flex gap-2 items-center justify-center text-[#E3E8F3] text-base font-normal">
               <span className="size-1 bg-[#E3E8F3] rounded-full" />

@@ -52,7 +52,7 @@ export default function RegisterWaitlist() {
 
   return (
     <form
-      className="flex flex-col space-y-[31px] w-2/5"
+      className="flex flex-col space-y-[31px] md:w-2/5"
       onSubmit={handleSubmit}
     >
       <input
@@ -94,11 +94,11 @@ export default function RegisterWaitlist() {
         value={waitlistInfo.telegram}
         onChange={handleChange}
       />
-      <div className="self-end">
+      <div className="md:self-end">
         <button
           type="submit"
           disabled={status === "loading"}
-          className="button-gradient font-normal text-base/[21.79px] open-sans transition-all hover:bg-opacity-80 disabled:opacity-50"
+          className="button-gradient w-full md:w-auto font-normal text-base/[21.79px] open-sans transition-all hover:bg-opacity-80 disabled:opacity-50"
         >
           {status === "loading" ? <Loader /> : "Register your interest now"}
         </button>
